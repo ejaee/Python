@@ -12,6 +12,7 @@ def print_count(n, value):
 
 print_count(3, "hello")
 print()
+print()
 
 # 가변 매개변수
 
