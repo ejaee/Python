@@ -31,4 +31,5 @@ def print_n_times(value, n=3):
 
 print_n_times("hello")
 print()
+print()
 print_n_times("hello", 4) # n값을 주면 3이 들어가지 않는다
