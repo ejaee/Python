@@ -248,6 +248,7 @@ print([273])
 print(type([273])) # >> list
 print()
 
+
 print((273))
 print(type((273))) # >> int
 print()
@@ -255,4 +256,9 @@ print()
 
 print((273, ))
 print(type((273, ))) # >> tuple
+print()
+
+print()
+print()
+print()
 print()
