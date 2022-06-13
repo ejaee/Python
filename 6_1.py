@@ -29,6 +29,7 @@ print()
 
 print("try except 구문\n")
 
+
 try:
     user_input = int(input("정수입력2> "))
     print(user_input)
