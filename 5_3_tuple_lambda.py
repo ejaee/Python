@@ -131,28 +131,4 @@ print([i * i for i in a if i % 2 == 0])
 print()
 print("- filter와 map을 사용하지 않은 위 식은 메모리를 사용하는 방식이다\n")
 print("- filter와 map은 제너레이터 함수로, 메모리를 사용하지 않는다\n")
-print("- 데이터에 자유로운 요즘, 그냥 아무거나 써라\n")
-
-# ----
-print("---- 3. 텍스트 파일 처리 기본 ----\n")
-
-# 파일은 텍스트 파일과 바이너리 파일로 나뉜다
-# 텍스트 파일 : 텍스트 에디터(vscode)로 열 수 있다
-# 바이너리 파일 : 없다 (이미지, 동영상, 워드, ...)
-
-# 다루는 방법
-# 1. 쓰기
-# -     새로 쓰기 (write) w
-# -     있는 파일 뒤에(append) a
-# 2. 읽기 r
-
-file = open("test.txt", "a") # w >> 파일을 새로 생성한다
-file.write("파일 쓰기를 배워보기, ")
-file.close()
-
-# open과 CLOSE를 with를 통해 한방에 쓸 수 있다, 대표적인 케이스
-with open("test2.txt", "w") as file:
-    file.write("이렇게 open과 close를 함께 함축적으로 사용할 수 있다")
-file = open("test2.txt", "r")
-print(file.read()) # write하고 싶다면 file.write("내용")
-file.close
+print("- 데이터에 자유로운 요즘 그냥 아무거나 써라\n")

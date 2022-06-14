@@ -91,3 +91,28 @@ print()
 
 # ----
 print("---- 확인문제 1 ----")
+
+str_num = ["1", "2", "3", "4", "5"]
+int_num = ["1", "2", "3", "4", "5"]
+
+print("::".join(str_num))
+print()
+print("::".join(
+    map(str,int_num) # map을 통해 새로운 list 생성
+))
+print()
+
+print("---- 확인문제 2 ----")
+
+nums = list(range(1, 10 + 1))
+print("# 홀수만 출력")
+print(list(filter(lambda x: x % 2 == 1, nums)))
+print()
+nums = list(range(1, 10 + 1))
+print("# 3 이상 7 미만 출력")
+print(list(filter(lambda x: 3 <= x < 7, nums)))
+print()
+nums = list(range(1, 10 + 1))
+print("# 제곱해서 50 미만 출력")
+print(list(filter(lambda x: x ** 2 < 50, nums)))
+print()

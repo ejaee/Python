@@ -23,9 +23,9 @@ print()
 
 # try except 구문
 # try:
-#    예외 발생 가능성이 있는 코드 코드
+#    실행할 코드
 # except:
-#    예외 발생 시 실행할 코드
+#    예외가 발생했을 때 처리하는 코드
 
 print("try except 구문\n")
 
@@ -37,3 +37,5 @@ try:
 except:
     print("is not digit!! (used except)")
 print()
+
+# ----
